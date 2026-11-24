@@ -1,4 +1,4 @@
-cantidad = int(input("¿Cuántos números quieres introducir? "))
+cantidad = int(input("¿Cuantos numeros quieres introducir? "))
 
 positivos = 0
 negativos = 0
@@ -6,7 +6,7 @@ ceros = 0
 
 for i in range(cantidad):
 
-    numero = int(input("Introduce un número: "))
+    numero = int(input("Introduce un numero: "))
 
     if numero > 0:
         positivos = positivos + 1
@@ -17,6 +17,6 @@ for i in range(cantidad):
     else:
         ceros = ceros + 1
 
-print("Números positivos:", positivos)
-print("Números negativos:", negativos)
-print("Números iguales a cero:", ceros)
+print("Numeros positivos:", positivos)
+print("Numeros negativos:", negativos)
+print("Numeros iguales a cero:", ceros)
